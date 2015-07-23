@@ -63,9 +63,9 @@ html {
   overflow-y: scroll; /* always force a scrollbar in non-IE */
   }
 body {
-  background: #fff;
+  background: #F6FAFF;
   overflow-x: hidden;
-  height: 2600px;
+  height: 2200px;
   line-height: 1.5;
   color: #000;
   font-size: 14px;
@@ -118,15 +118,15 @@ img {
       }
     #raining {
       position: absolute;
-      top: 0px;
+      top: 60px;
       }
     #but {
       position: absolute;
-      top: 900px;
+      top: 800px;
       }
     #has-umbrella {
       position: absolute;
-      top: 2000px;
+      top: 1500px;
       }
       #content h1 {
         color: #cc33ff;
@@ -152,7 +152,7 @@ img {
 
   #umbrella {
     position: absolute;
-    top: 390px;
+    top: 160px;
     left: 500px;
     }
 
@@ -167,7 +167,7 @@ img {
 
   #bigjello {
     position: absolute;
-    top: 1070px;
+    top: 860px;
     left: 450px;
     }
 
@@ -241,7 +241,12 @@ img {
     }
   #bg1-4 {
     position: absolute;
-    top: 720px;
+    top: 160px;
     left: 450px;
     }
 
+  #ground {
+    position: relative;
+    top: 1720px;
+    left: 450px;
+  }
