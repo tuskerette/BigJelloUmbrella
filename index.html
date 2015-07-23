@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My first experiment with parallax</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/parallax.js"></script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="content">
+    <div><h4>My first experiment with parallax!</h4></div>
+      <article id="raining">
+        <header>
+          <h1>It's raining...</h1>
+        </header>
+      </article>
+
+      <article id="but">
+        <header>
+          <h1>BUT</h1>
+        </header>
+      </article>
+
+      <article id="has-umbrella">
+        <header>
+          <h1>Big Jello has an umbrella!</h1>
+        </header>
+          <h4>A parallax experiment by<br />
+           Valeria Graffeo</h4>
+          <p><a href="http://www.tuskerette.com" target="_blank">tuskerette.com</a><br />
+          tutorial by <a href="http://jonathannicol.com/blog/2011/08/06/build-a-parallax-scrolling-website-interface-with-jquery-and-css/" target="_blank">Jonathan Nicol</a></p>
+      </article>
+    </div>
+
+    <!-- Parallax foreground -->
+  <div id="parallax-umbrella">
+    <img id="umbrella" src="img/umbrella.png" width="178" height="145" alt="Umbrella"/>
+  </div>
+
+  <div id="parallax-big-jello">
+    <img id="bigjello" src="img/kingjello.png" width="100" height="118" alt="Big Jello"/>
+  </div>
+
+  <!-- Parallax  big raindrops -->
+  <div id="parallax-big-raindrops">
+    <img id="bg2-1" src="img/raindrop2.png" alt="raindrop-big"/>
+    <img id="bg2-2" src="img/raindrop2.png" alt="raindrop-big"/>
+    <img id="bg2-3" src="img/raindrop2.png" alt="raindrop-big"/>
+    <img id="bg2-4" src="img/raindrop2.png" alt="raindrop-big"/>
+    <img id="bg2-5" src="img/raindrop2.png" alt="raindrop-big"/>
+    <img id="bg2-6" src="img/raindrop2.png" alt="raindrop-big"/>
+    <img id="bg2-7" src="img/raindrop2.png" alt="raindrop-big"/>
+  </div>
+
+  <!-- Parallax  background raindrops -->
+  <div id="parallax-small-raindrops">
+    <img id="bg1-1" src="img/raindrop.png" alt="raindrop"/>
+    <img id="bg1-2" src="img/raindrop.png" alt="raindrop"/>
+    <img id="bg1-3" src="img/raindrop.png" alt="raindrop"/>
+    <img id="bg1-4" src="img/raindrop.png" alt="raindrop"/>
+  </div>
+</div>
+
+</body>
+</html>
